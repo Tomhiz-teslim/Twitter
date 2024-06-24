@@ -1,0 +1,187 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+
+}
+body .imagecontainer {
+    width: 450px;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+body .imagecontainer .Ximg {
+    width: 430px;
+}
+body .Content {
+    width: 550px;
+    height: 1000px;
+    margin-left: 260px;
+    margin-top: 70px;
+}
+
+body .Content .happen {
+    color: #e7e9ea;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, Arial'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    margin-bottom: 50px;
+    font-weight: 900;
+    
+}
+body .Content .join {
+    color: #e7e9ea;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, Arial, Helvetica, sans-serif 'Trebuchet MS', sans-serif;
+    width: 200px;
+    font-size: 31px;
+    margin-bottom: 50px;
+    font-weight: 900;
+}
+
+body .Content .google {
+    border: 1px solid;
+    border-color: white;
+    width: 310px;
+    height: 43px;
+    background-color: #fff;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+body .Content .google .linkg {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+body .Content .google .G {
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+}
+body .Content .google .signg {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, Arial, Helvetica, sans-serif 'Trebuchet MS', sans-serif;
+    color: #808080;
+    font-weight: 900;
+}
+
+body .Content .apple {
+    border: 1px solid;
+    border-color: white;
+    width: 310px;
+    height: 43px;
+    background-color: #fff;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+body .Content .apple .linka {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+body .Content .apple .A {
+    width: 20px;
+    height: 22px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+body .Content .apple .signa {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, Arial, Helvetica, sans-serif 'Trebuchet MS', sans-serif;
+    color: #000;
+}
+
+body .Content .or {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;
+    color: #e7e9ea;
+    background: ;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, Arial, Helvetica, sans-serif 'Trebuchet MS', sans-serif;
+}
+body .Content .or:before, .or:after{
+    width: 140px;
+    content: "";
+    border-bottom: 1.5px solid#414A4C;
+    margin-bottom: 7px;
+    
+} 
+
+body .Content .or:before {
+    margin-right: 10px;
+}
+body .Content .or:after {
+    margin-left: 10px;
+}
+
+body .Content .B {
+    border: 1px solid;
+    border-color: #1d9bf0;
+    width: 310px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 900;
+    height: 43px;
+    background-color: #1d9bf0;
+    border-radius: 50px;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 18px;
+}
+
+body .Content .by {
+    color: #71767b;
+    width: 308px;
+    font-size: 11px;
+}
+body .Content .by .C, .D, .E {
+    color: #1d9bf0;
+    text-decoration: none;
+}
+
+body .Content .bottom {
+    width: 310px;
+    margin-top: 65px;
+}
+
+body .Content .bottom .account {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+body .Content .bottom .cap {
+    padding: 10px;
+    width: 310px;
+    color: #1d9bf0;
+    border-radius: 50px;
+    background-color: #000;
+    border: 1px solid #414A4C;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
